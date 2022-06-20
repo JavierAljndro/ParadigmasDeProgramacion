@@ -1,0 +1,68 @@
+            #####################################
+            #                                   #
+            #           COMANDOS VIM            #
+            #                                   #
+            #####################################
+
+[ vi lab1 ]: Entrar al editor de texto VIM "nombre del archivo"
+
+[ esc ]: Para salir del modo de escritura y poner una de las siguientes ordenes:
+
+[ R ]  : Replace (es para sobre-escribir)
+[ i ]  : Insert (escribir insertado, normal)
+[ x ]  : Borrar
+[ dd ] : Borrar renglon completo
+[ :1 ] : Para ir a la primera línea
+[ :$ ] : Para ir a la última línea
+
+-------------------------------------------
+        # Lista de compañeros:
+
+- Luis
+- Bosco 
+- Pablo
+- Alex
+- Edwin
+- Paola
+- Javier
+- Fernando
+- Alejandra
+- Luis
+- Luis
+- luis
+------------------------------------------
+
+[ esc ] : Salir del modo de escritura y poner uno de los siguientes comandos:
+
+[ /"nombre" ] : Buscar "nombre"
+[ /"nombre" ] + [ ENTER ] + [ n ] : El "n" te lleva a las siguientes palabras
+repetidas.
+
+[ :w ]  : Guardar
+[ :wq ] : Guardar y sali
+[ :q! ] : Salir sin guardar cambios
+
+_______________________________________________________________________________
+
+Una vez guardado el archivo [ vi "nombre del archivo" ] para abrir el archivo.
+
+NOta: no cambiar la dirección donde se guardó el archivo, porque despúes no lo encuentra y VIM no lo podrá abrir.
+_______________________________________________________________________________
+
+[ cd ] : cambiar dierectorio
+[ ls ] : (list) contenido del directorio
+[ dir ] : Es similar al "list"
+[ cd .. ] : Regresar al directorio de arriba 
+[ cd ] : Regresa a home
+[ mv ] : mover
+[ cp ] : copiar
+[ pwd ] : dirección de trabajo
+[ rm ] : Borrar
+
+
+
+##############################################
+
+PARA HACER UN DIRECTORIO NUEVO DESDE LA CONSOLA, 
+TENEMOS QUE PONER EL CÓDIGO [mkdir  "nombre"]
+que significa make (hacer) directorio 
